@@ -19,7 +19,7 @@ FOUND_FILE=$(find . -name "*.out" | grep "a.out" | xargs -L1 -I{} basename "{}"|
 echo "> : Hana femel otter like to help Kotaro "
 echo ""
 echo "Please give her a fresh fish and those file will delete perminanly"
-echo "Please Type 'y' or 'n' to cancel"
+echo "Please Type 'y' to Accept or 'n' to cancel"
 
 read input
 
